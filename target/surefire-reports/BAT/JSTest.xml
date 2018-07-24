@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="Suchis-MacBook-Pro.local" failures="1" tests="2" name="test.java.BAT.JSTest" time="5.097" errors="0" timestamp="24 Jul 2018 04:55:11 GMT">
+  <testcase classname="test.java.BAT.JSTest" name="testIfLoggedIn" time="1.369">
+    <failure type="java.lang.AssertionError" message="expected:&amp;lt;false&amp;gt; but was:&amp;lt;true&amp;gt;">
+      <![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+	at test.java.BAT.JSTest.testIfLoggedIn(JSTest.java:39)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 31 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="test.java.BAT.JSTest" name="testForConsoleErrors" time="1.647"/>
+</testsuite>

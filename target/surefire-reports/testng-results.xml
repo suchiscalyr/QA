@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="5" passed="2" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-07-23T21:55:06Z" name="BAT" finished-at="2018-07-23T21:55:13Z" duration-ms="7672">
+    <groups>
+    </groups>
+    <test started-at="2018-07-23T21:55:06Z" name="JSTest" finished-at="2018-07-23T21:55:11Z" duration-ms="5097">
+      <class name="test.java.BAT.JSTest">
+        <test-method is-config="true" signature="beforeTest()" started-at="2018-07-23T21:55:06Z" name="beforeTest" finished-at="2018-07-23T21:55:08Z" duration-ms="1966" status="PASS">
+        </test-method>
+        <test-method signature="testIfLoggedIn()" started-at="2018-07-23T21:55:08Z" name="testIfLoggedIn" finished-at="2018-07-23T21:55:09Z" duration-ms="1369" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected:<false> but was:<true>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected:<false> but was:<true>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:281)
+	at org.testng.Assert.assertEquals(Assert.java:291)
+	at test.java.BAT.JSTest.testIfLoggedIn(JSTest.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testForConsoleErrors()" started-at="2018-07-23T21:55:09Z" name="testForConsoleErrors" finished-at="2018-07-23T21:55:11Z" duration-ms="1647" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="afterTest()" started-at="2018-07-23T21:55:11Z" name="afterTest" finished-at="2018-07-23T21:55:11Z" duration-ms="113" status="PASS">
+        </test-method>
+      </class>
+    </test>
+    <test started-at="2018-07-23T21:55:11Z" name="FindingeventsTest" finished-at="2018-07-23T21:55:13Z" duration-ms="2379">
+      <class name="test.java.BAT.FindingeventsTest">
+        <test-method is-config="true" signature="beforeTest()" started-at="2018-07-23T21:55:11Z" name="beforeTest" finished-at="2018-07-23T21:55:12Z" duration-ms="926" status="PASS">
+        </test-method>
+        <test-method signature="f()" started-at="2018-07-23T21:55:12Z" name="f" finished-at="2018-07-23T21:55:13Z" duration-ms="1361" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="afterTest()" started-at="2018-07-23T21:55:13Z" name="afterTest" finished-at="2018-07-23T21:55:13Z" duration-ms="91" status="PASS">
+        </test-method>
+      </class>
+    </test>
+    <test started-at="2018-07-23T21:55:06Z" name="LoginTest" finished-at="2018-07-23T21:55:06Z" duration-ms="136">
+      <class name="test.java.BAT.LoginTest">
+        <test-method is-config="true" signature="beforeTest()" started-at="2018-07-23T21:55:06Z" name="beforeTest" finished-at="2018-07-23T21:55:06Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:125)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at test.java.BAT.LoginTest.beforeTest(LoginTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:632)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="f()" started-at="2018-07-23T21:55:06Z" name="f" finished-at="2018-07-23T21:55:06Z" duration-ms="1" status="SKIP">
+        </test-method>
+        <test-method signature="setupChromeDriver()" started-at="2018-07-23T21:55:06Z" name="setupChromeDriver" finished-at="2018-07-23T21:55:06Z" duration-ms="0" status="SKIP">
+        </test-method>
+        <test-method is-config="true" signature="afterTest()" started-at="2018-07-23T21:55:06Z" name="afterTest" finished-at="2018-07-23T21:55:06Z" duration-ms="0" status="SKIP">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

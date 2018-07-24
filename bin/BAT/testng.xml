@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BAT">
+     <test name="LoginTest" >
+  <classes>
+  <class name= "BAT.LoginTest"/>
+  </classes>
+     </test>
+     <test name="JSTest" >
+  <classes>
+  <class name= "BAT.JSTest"/>
+  </classes>
+     </test>
+     <test name="FindingeventsTest" >
+  <classes>
+  <class name= "BAT.FindingeventsTest"/>
+  </classes>
+     </test>
+</suite> 
